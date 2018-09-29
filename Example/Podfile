@@ -1,11 +1,10 @@
+platform :ios, '10.0'
+
 use_frameworks!
 
 target 'HelloWorldKit_Example' do
   pod 'HelloWorldKit', :path => '../'
-
   target 'HelloWorldKit_Tests' do
     inherit! :search_paths
-
-    
   end
 end

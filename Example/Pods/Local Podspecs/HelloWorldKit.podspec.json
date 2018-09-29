@@ -1,8 +1,8 @@
 {
   "name": "HelloWorldKit",
   "version": "0.1.0",
-  "summary": "A short description of HelloWorldKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "HelloWorldKit is a Swift library which welcomes users with greeting message",
+  "description": "Nothing fancy here, HelloWorldKit is a Swift library which welcomes users with greeting message. Thats it! The purpose of this library is demo the CI for iOS libraries.",
   "homepage": "https://github.com/Shashikant86/HelloWorldKit",
   "license": {
     "type": "MIT",
@@ -15,8 +15,9 @@
     "git": "https://github.com/Shashikant86/HelloWorldKit.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/Shashikant86",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "HelloWorldKit/Classes/**/*"
+  "source_files": "HelloWorldKit/Sources/**/*"
 }
