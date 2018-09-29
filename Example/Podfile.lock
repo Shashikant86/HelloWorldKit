@@ -1,0 +1,16 @@
+PODS:
+  - HelloWorldKit (0.1.0)
+
+DEPENDENCIES:
+  - HelloWorldKit (from `../`)
+
+EXTERNAL SOURCES:
+  HelloWorldKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HelloWorldKit: d8b1acb60e67360d2dfcfcf0f4e46ca842ae083b
+
+PODFILE CHECKSUM: b7fc0c8e1825f86a2d98e526efde30f0b40a38b8
+
+COCOAPODS: 1.5.3

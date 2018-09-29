@@ -9,34 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = 'HelloWorldKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HelloWorldKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'HelloWorldKit is a Swift library which welcomes users with greeting message'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Nothing fancy here, HelloWorldKit is a Swift library which welcomes users with greeting message. Thats it! The purpose of this library is demo the CI for iOS libraries.
                        DESC
 
   s.homepage         = 'https://github.com/Shashikant86/HelloWorldKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shashikant86' => 'shashikant.jagtap@icloud.com' }
   s.source           = { :git => 'https://github.com/Shashikant86/HelloWorldKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/Shashikant86'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'HelloWorldKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HelloWorldKit' => ['HelloWorldKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '10.0'
+  s.source_files = 'HelloWorldKit/Sources/**/*'
 end

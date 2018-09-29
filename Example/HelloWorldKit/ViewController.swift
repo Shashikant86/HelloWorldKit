@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var welcomeText: UILabel!
+   
+    @IBAction func enterPressed(_ sender: Any) {
+        
+        welcomeText.text = "Hello World"
+        welcomeText.isHidden = false
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        welcomeText.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {
