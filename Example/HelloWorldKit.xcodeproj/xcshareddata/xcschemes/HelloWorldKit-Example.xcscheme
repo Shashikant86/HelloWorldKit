@@ -20,20 +20,6 @@
                ReferencedContainer = "container:HelloWorldKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "HelloWorldKit_Tests.xctest"
-               BlueprintName = "HelloWorldKit_Tests"
-               ReferencedContainer = "container:HelloWorldKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

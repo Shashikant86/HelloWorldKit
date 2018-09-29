@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'HelloWorldKit_Example' do
   pod 'HelloWorldKit', :path => '../'
-  target 'HelloWorldKit_Tests' do
+  target 'HelloWorldKitTests' do
     inherit! :search_paths
   end
 end

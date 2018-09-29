@@ -1,6 +1,0 @@
-framework module HelloWorldKit {
-  umbrella header "HelloWorldKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
